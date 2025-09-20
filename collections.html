@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commy</title>
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asimovian&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+
+    <navbar class="navbar">
+      <h1>Octane</h1>
+
+      <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link"><a href="collections.html">Collection</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact</a></p>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="showSideNav()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </navbar>
+
+    <!--Side navbar-->
+    <div class="side-navbar">
+      <p class="xmark" onclick="hideSideNav()">
+        <i class="fa-solid fa-xmark xmark"></i>
+      </p>
+
+      <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collections.html">Collection</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+      </div>
+    </div>
+
+    <!--Products section-->
+
+    <div class="product-section">
+        <center>
+        <div class="product-search" >
+            <input type="text" id="search" placeholder="search" onkeyup="productsearch()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        </center>
+
+        <div class="products" >
+            <div class="product-box">
+                <img src="img/547683277_771345065820400_8273262503750735890_n.jpg" alt="">
+                <p>White Shirts</p>
+            </div>
+            
+            <div class="product-box">
+                <img src="img/formal.jpg" alt="">
+                <p>Formal Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="img/denim.jpg" alt="">
+                <p>Denim Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="img/hoodie.jpg" alt="">
+                <p>Red Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="img/black.jpg" alt="">
+                <p>Black Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="img/tshirt.jpg" alt="">
+                <p>T Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="img/trousers.webp" alt="">
+                <p>Trousers</p>
+            </div>
+
+            <div class="product-box">
+                <img src="img/shoe.jpg" alt="">
+                <p>Black Shirts</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="footercontainer">
+        <div class="footer-box-1">
+          <h3>Octane</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="footer-icon">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p>@2025 octane.com</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
