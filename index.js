@@ -8,27 +8,6 @@ function hideSideNav(){
     side_navbar.style.left = "-60%"
 }
 
-
-/*Collections.html */
-
-// var enteredtext = ""
-// const container = document.querySelector('.products')
-// const element = container.querySelectorAll('div')
-// const item = element.querySelectorAll('p')
-
-// function productsearch(event){
-//     enteredtext = event.target.value.toLowerCase()
-
-//     for(i=0;i<=item.length();i++){
-//         if(item[i].textContent.toLowerCase().indexOf(enteredtext) <0){
-//             item[i].style.display="none"
-//         }
-//         else{
-//             item[i].style.display="block"
-//         }
-//     }
-// }
-
 const search = document.getElementById("search")
 const products_container = document.querySelector(".products")
 const product_list = products_container.querySelectorAll("div")
